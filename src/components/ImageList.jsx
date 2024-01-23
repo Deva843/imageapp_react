@@ -6,7 +6,7 @@ import "./imageList.css"
    //redirect to image page
   function handleClick(ele){
     const link = document.createElement('a');
-    link.href=ele.urls.small;
+    link.href=ele.urls.full;
     link.target = "_blank"
     link.click();
 

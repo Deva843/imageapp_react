@@ -33,8 +33,8 @@ const ImageSearch = ({setImageList}) => {
                     // ${process.env.REACT_APP_UNSPLASH_ACCESS_KEY}
             },
             params: {
-                    query: search || "groot" ,
-                    per_page:12,
+                    query: search || "TamilNadu" ,
+                    per_page:21,
             }
         })
         console.log(response.data.results);
